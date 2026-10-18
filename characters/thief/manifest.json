@@ -1,0 +1,68 @@
+{
+  "id": "thief",
+  "name": "Thief",
+  "author": "shimeji-app",
+  "version": "1.0.0",
+  "personality": "thief",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "fps": 8,
+  "scale": 2,
+  "animations": {
+    "idle": {
+      "row": 0,
+      "frames": 4,
+      "loop": true
+    },
+    "walk_right": {
+      "row": 1,
+      "frames": 6,
+      "loop": true
+    },
+    "walk_left": {
+      "row": 2,
+      "frames": 6,
+      "loop": true
+    },
+    "fall": {
+      "row": 3,
+      "frames": 2,
+      "loop": true
+    },
+    "climb_up": {
+      "row": 4,
+      "frames": 4,
+      "loop": true
+    },
+    "climb_down": {
+      "row": 5,
+      "frames": 4,
+      "loop": true
+    },
+    "sit": {
+      "row": 6,
+      "frames": 2,
+      "loop": true
+    },
+    "grabbed": {
+      "row": 7,
+      "frames": 2,
+      "loop": true
+    },
+    "thrown": {
+      "row": 8,
+      "frames": 2,
+      "loop": false
+    }
+  },
+  "behaviors": {
+    "gravity": 0.5,
+    "walkSpeed": 1.5,
+    "climbSpeed": 1,
+    "canClimb": true,
+    "canSit": false,
+    "sitChance": 0.002,
+    "turnChance": 0.001,
+    "speakChance": 0.004
+  }
+}
